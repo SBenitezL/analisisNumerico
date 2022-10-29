@@ -42,7 +42,7 @@ namespace raices
 					r.agregar(Xnueva);
 					if(er <= erp)
 					{
-						r.setValor(Xnueva);
+						r.setValor(Xnueva);						
 						return r;
 					}
 					i = i+1;

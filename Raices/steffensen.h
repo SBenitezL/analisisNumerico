@@ -1,15 +1,15 @@
-#ifndef STEFFENSON_H
-#define STEFFENSON_H
+#ifndef STEFFENSEN_H
+#define STEFFENSEN_H
 
 #include <functional>
 #include "APROXIMACION.H"
 
 namespace raices
 {
-	class steffenson
+	class steffensen
 	{
 		public:	
-			steffenson(function<double(double)> prmFuncion):atrFuncion(prmFuncion)
+			steffensen(function<double(double)> prmFuncion):atrFuncion(prmFuncion)
 			{
 			}
 			raiz calcularRaiz(double prmP,double prmERP, int maxIter)

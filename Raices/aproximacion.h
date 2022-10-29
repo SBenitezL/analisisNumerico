@@ -50,7 +50,7 @@ namespace raices
 			{
 				for(int i = 0; i < iteraciones; i++)
 				{
-					cout<<"Iteracion "<<i+1<<" valor: "<<aproximaciones[i]<<" ERP: "<< std::setprecision(10) <<erpCalculado[i] <<endl;
+					cout<<" Iteracion "<<i+1<<" valor: "<<aproximaciones[i]<<" ERP: "<< std::setprecision(10) <<erpCalculado[i] <<endl;
 				}
 			}
 		}
